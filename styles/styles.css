@@ -8,8 +8,34 @@ html, body{
     overflow-x: hidden; 
   }
   
-  
-  .h1-container, nav{
+.h1-container, nav{
     font-family: "Playfair Display";
     letter-spacing: 5px;
+  }
+
+  .footer-design{
+    color:grey;
+    padding:2px;
+    margin:0;
+  }
+  
+  
+  /* unvisited link */
+  #gh-Link:link {
+    color:black;
+  }
+  
+  /* visited link */
+  #gh-Link:visited {
+    color:blue;
+  }
+  
+  /* mouse over link */
+  #gh-Link:hover {
+    color:black;
+  }
+  
+  /* selected link */
+  #gh-Link:active {
+    color: blue;
   }
